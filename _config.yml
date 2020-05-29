@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: Shaina Boover
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -38,11 +38,11 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
+  email: "sboove@gmail.com"
   github: daattali
-  twitter: daattali
   rss: true
+# twitter: daattali  
+# facebook: deanattali
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
@@ -80,7 +80,7 @@ excerpt_length: 50
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#9fedd0"
 navbar-text-col: "#404040"
 navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
