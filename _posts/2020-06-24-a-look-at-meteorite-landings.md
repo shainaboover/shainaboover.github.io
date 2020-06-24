@@ -33,7 +33,9 @@ Over the last 50 years, we started collecting loads of meteorites. Most of these
 
 Turns out, meteorites are found everywhere! They are spread across all continents, even on small islands. I wondered which locations had the highest concentrations. I took a look at the 5 coordinates that recorded the greatest number of these surprisingly common space rocks.  
 
-->![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/top_five.png)<-
+<p align="center">
+  <img width="460" height="300" src="![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/top_five.png)">
+</p>
 
 I learned that all five coordinates (plus the next 4, totalling top 9 most densely concentrated) were in Antarctica! I won't be getting into why this is, but if you're curious like I am, you can follow the links below to learn about the Antarctic Search for Meteorites (ANSMET) program.     
 [<span style="font-size:10pt;">Discover Magazine on why Antartica is the perfect place for meteorite hunting</span>](https://www.discovermagazine.com/the-sciences/do-more-meteorites-fall-on-antarctica)     
