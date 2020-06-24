@@ -36,8 +36,7 @@ Turns out, meteorites are found everywhere! They are spread across all continent
 I learned that all five coordinates (plus the next 4, totalling top 9 most densely concentrated) were in Antarctica! I won't be getting into why this is, but if you're curious like I am, you can follow the links below to learn about the Antarctic Search for Meteorites (ANSMET) program. 
 
 Discover Magazine on why Antartica is the perfect place for meteorite hunting:
-https://www.discovermagazine.com/the-sciences/do-more-meteorites-fall-on-antarctica
-
+https://www.discovermagazine.com/the-sciences/do-more-meteorites-fall-on-antarctica       
 Info on ANSMET 2019-2020 field season:
 https://caslabs.case.edu/ansmet/category/19-20/
 
