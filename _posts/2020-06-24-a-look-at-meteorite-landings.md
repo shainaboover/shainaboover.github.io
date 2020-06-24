@@ -36,7 +36,6 @@ Turns out, meteorites are found everywhere! They are spread across all continent
 I learned that all five coordinates (plus the next 4, totalling top 9 most densely concentrated) were in Antarctica! I won't be getting into why this is, but if you're curious like I am, you can follow the links below to learn about the Antarctic Search for Meteorites (ANSMET) program. 
 
 https://www.discovermagazine.com/the-sciences/do-more-meteorites-fall-on-antarctica
-
 https://caslabs.case.edu/ansmet/category/19-20/
 
 I was quite surprised by the number of meteorites we're now finding on Earth's surface. The relatively new realization that these extraterrestrial objects are all around us, I see as a testament to the connectedness of the universe. A concept that can so easily be lost here on this planet's surface. So the next time you pick up that funny looking rock, wonder how it got there and remember that you're a part of something fascinating: a mystery of the universe, hiding in plain sight, if you only choose to look.
