@@ -37,6 +37,7 @@ I learned that all five coordinates (plus the next 4, totalling top 9 most dense
 
 Discover Magazine on why Antartica is the perfect place for meteorite hunting:
 https://www.discovermagazine.com/the-sciences/do-more-meteorites-fall-on-antarctica
+
 Info on ANSMET 2019-2020 field season:
 https://caslabs.case.edu/ansmet/category/19-20/
 
