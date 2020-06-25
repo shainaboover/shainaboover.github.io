@@ -2,7 +2,7 @@
 layout: post
 title: A Look at Meteorite Landings
 subtitle: Analyzing the size and frequency of Meteorites found on Earth
-cover-img: /github.com/shainaboover/Meteorite_Landings/blob/master/meteor_shower.jpg
+cover-img: https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor_shower.jpg
 # tags: [books, test]
 ---
 
