@@ -19,7 +19,7 @@ First, to get a feel for the data, I took a general look at how many were found 
 [id]: https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor_time.png "Meteorites over Time"
 
 Perhaps unsuprisingly, the vast majority of meteorites were recorded in the last 50 or so years. Here's a look at just the last century's worth of meteorite collection. During the 1970's, we went from recording very few to hundreds and even thousands of meteorites per year!         
-![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/metor_time_1900.png "Meteorites last 50yrs")
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/metor_time_1900.png?raw=true "Meteorites last 50yrs")
 
 Next, I explored how often meteorites were observed falling vs found on the ground. It seems as though meteorite landings that were observed falling are much rarer than those that are found. This makes sense considering how small the meteorites tend to be (more on that later).         
 ![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/fell_found_1900.png "Fell vs Found")
