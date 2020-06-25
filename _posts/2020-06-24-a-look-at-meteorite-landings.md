@@ -15,6 +15,7 @@ Do more meteorites tend to be found in specific locations?
 
 First, to get a feel for the data, I took a general look at how many were found per year.        
 ![alt text][id]
+
 [id]: https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor_time.png "Meteorites over Time"
 
 Perhaps unsuprisingly, the vast majority of meteorites were recorded in the last 50 or so years. Here's a look at just the last century's worth of meteorite collection. During the 1970's, we went from recording very few to hundreds and even thousands of meteorites per year!         
