@@ -27,7 +27,7 @@ Are observed meteorites generally larger than the ones that are found? To be see
 Over the last 50 years as expeditions became commonplace, we started collecting loads of meteorites. Most of these turned out to be very small pieces that were overlooked until we figured out how to spot them. You can see how meteorites of smaller weights are being recorded on a much larger scale than ever before.         
 ![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/mass_year.png?raw=true)
 
-This post wouldn't be complete without a map of all recorded meteorite landings across the globe    
+Here is what meteorite landings look like across the globe    
 
 ![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/map.png?raw=true)
 
