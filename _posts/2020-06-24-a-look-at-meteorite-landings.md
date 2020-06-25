@@ -8,10 +8,10 @@ cover-img: https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor
 
 I took a look at NASA's Meteorite Landings dataset. This set contains information about recorded meteorite landings on Earth between the years 601 and 2013. I wanted to see if I could find anything interesting about the mass, location, and frequency of meteorites.
 
-I wondered:
-Historically, how often are meteorites recorded?
-Is there a notable difference in mass between the meteorites that were observed falling from the sky vs those that were found on the ground?
-Do more meteorites tend to be found in specific locations?
+I wondered:     
+* Historically, how often are meteorites recorded?     
+* Is there a notable difference in mass between the meteorites that were observed falling from the sky vs those that were found on the ground?     
+* Do more meteorites tend to be found in specific locations?     
 
 First, to get a feel for the data, I took a general look at how many were found per year.        
 ![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor_time.png?raw=true)
