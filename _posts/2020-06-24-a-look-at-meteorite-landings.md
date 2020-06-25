@@ -17,24 +17,24 @@ First, to get a feel for the data, I took a general look at how many were found 
 ![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/meteor_time.png "Meteorites over Time")
 
 Perhaps unsuprisingly, the vast majority of meteorites were recorded in the last 50 or so years. Here's a look at just the last century's worth of meteorite collection. During the 1970's, we went from recording very few to hundreds and even thousands of meteorites per year!         
-![alt text](/github.com/shainaboover/Meteorite_Landings/blob/master/metor_time_1900.png "Meteorites last 50yrs")
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/metor_time_1900.png "Meteorites last 50yrs")
 
 Next, I explored how often meteorites were observed falling vs found on the ground. It seems as though meteorite landings that were observed falling are much rarer than those that are found. This makes sense considering how small the meteorites tend to be (more on that later).         
-![alt text](/github.com/shainaboover/Meteorite_Landings/blob/master/fell_found_1900.png)
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/fell_found_1900.png "Fell vs Found")
 
 Are observed meteorites generally larger than the ones that are found? To be seen in the sky, I reasoned, they must be larger than average. Intuitively, it seems that the bigger a meteorite is, the easier it can be spotted. I turned out to be wrong in that assumption, however there IS a notable difference in the frequency of smaller meteorites.
 
 Over the last 50 years, we started collecting loads of meteorites. Most of these turned out to be very small pieces that were overlooked until we figured out how to spot them. You can see how meteorites of smaller weights are being recorded on a much larger scale than ever before.        
-![alt text](/github.com/shainaboover/Meteorite_Landings/blob/master/mass_year.png)
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/mass_year.png "Mass by Year")
 
 This post wouldn't be complete without a map of all recorded meteorite landings across the globe    
 
-![alt text](/github.com/shainaboover/Meteorite_Landings/blob/master/map.png)
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/map.png "Map of Landings")
 
 Turns out, meteorites are found everywhere! They are spread across all continents, even on small islands. I wondered which locations had the highest concentrations. I took a look at the 5 coordinates that recorded the greatest number of these surprisingly common space rocks.  
 
 
-![alt text](/github.com/shainaboover/Meteorite_Landings/blob/master/top_five.png)
+![alt text](https://github.com/shainaboover/Meteorite_Landings/blob/master/top_five.png "Top Five")
 
 
 I learned that all five coordinates (plus the next 4, totalling top 9 most densely concentrated) were in Antarctica! I won't be getting into why this is, but if you're curious like I am, you can follow the links below to learn about the Antarctic Search for Meteorites (ANSMET) program.     
