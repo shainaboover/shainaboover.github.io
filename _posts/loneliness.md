@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Loneliness
 subtitle: Can we predict who is lonely based on hobbies, fears, and opinions?
-cover-img: 
+cover-img: https://github.com/shainaboover/Loneliness/blob/master/lonely_1.jpg
 # tags: [books, test]
 ---
 
