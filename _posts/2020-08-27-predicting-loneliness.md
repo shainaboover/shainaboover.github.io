@@ -23,7 +23,7 @@ I found that the two models had pretty big differences in how they prioritized t
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png?raw=true)
 
-Despite those differences, they produced very similar confusion matrices. Again Random Forest and XGB, respectively. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to wrongly predict that someone was lonely when they were not. 
+Despite those differences, they produced very similar confusion matrices. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to wrongly predict that someone was lonely when they were not. Again Random Forest and XGB, respectively. 
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png?raw=true)
 
@@ -31,4 +31,9 @@ I also found very similar, albeit, not great ROC curves
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png?raw=true)
 
+When the models were run on my validation set, the precision metric was pretty high!
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/metrics_validation.png?raw=true)
+
+But when run on the test set, the accuracy dropeed to baseline level
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/random_forest_report.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_report.png?raw=true)
 
