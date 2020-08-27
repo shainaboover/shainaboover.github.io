@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Loneliness
 subtitle: Can we predict who is lonely based on hobbies, fears, and opinions?
-cover-img: https://github.com/shainaboover/Loneliness/blob/master/lonely_1.jpg
+cover-img: https://github.com/shainaboover/Loneliness/blob/master/lonely_3.jpg?raw=true
 # tags: [books, test]
 ---
 
@@ -23,7 +23,7 @@ I found that the two models had pretty big differences in how they prioritized t
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png)
 
-Despite those differences, they produced very similar confusion matrices. Again Random Forest and XGB, respectively. Both were able to predict severe loneliness with a pretty high level of precision, though they tended to get a good bit of false negatives. 
+Despite those differences, they produced very similar confusion matrices. Again Random Forest and XGB, respectively. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to wrongly predict that someone was lonely when they were not. 
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png)
 
