@@ -19,6 +19,15 @@ First, I maded a some simple models and found which features were most correlate
 
 Next I fit a few models (including logistic regression, decision tree, random forest, xgb) and compared which ones were performing best. My Random Forest and Gradient Boosting models out performed the others but gave me very similar metrics. 
 
-I found that the two models had pretty big differences in how they prioritized the variables. Random Forest and XGB respectively
+I found that the two models had pretty big differences in how they prioritized the variables. Here is what each model, Random Forest and XGB respectively, ranked the features.
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png)
+
+Despite those differences, they produced very similar confusion matrices. Again Random Forest and XGB, respectively. Both were able to predict severe loneliness with a pretty high level of precision, though they tended to get a good bit of false negatives. 
+
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png)
+
+I also found very similar, albeit, not great ROC curves
+
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png)
+
