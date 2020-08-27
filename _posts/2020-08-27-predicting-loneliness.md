@@ -34,6 +34,7 @@ I also found very similar, albeit, not great ROC curves
 When the models were run on my validation set, the precision metric was pretty high!
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/metrics_validation.png?raw=true)
 
-But when run on the test set, the accuracy dropeed to baseline level
+But when run on the test set, the accuracy droped to baseline level
+
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/random_forest_report.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_report.png?raw=true)
 
