@@ -6,3 +6,5 @@ cover-img:
 # tags: [books, test]
 ---
 
+I chose a dataset that surveyed of a little over 1000 young people on their hobbies, fears, and personal opinions.
+I wanted to see whether I could predict loneliness based on these factors. 
