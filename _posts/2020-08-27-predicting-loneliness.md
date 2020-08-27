@@ -15,20 +15,20 @@ For an explanation of the survey questions, you can refer to the [<span style="f
 I was only interested in those who reported severe feelings of loneliness, so I made the target class binary with 1 representing severe loneliness (those who answered a 4 or 5) and 0 representing all others (average to low levels of loneliness). This resulted in imbalanced classes and I chose precision as my metric. I wanted to see how often the models were able to predict severe loneliness.
 
 First, I maded a some simple models and found which features were most correlated with loneliness. I chose to use the top 20 features from a random forest model. Intuitively, I can see how many of these features would relate to loneliness in others as well as my own life.
-![alt text](https://github.com/shainaboover/Loneliness/blob/master/feature_importances.png)
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/feature_importances.png?raw=true)
 
 Next I fit a few models (including logistic regression, decision tree, random forest, xgb) and compared which ones were performing best. My Random Forest and Gradient Boosting models out performed the others but gave me very similar metrics. 
 
 I found that the two models had pretty big differences in how they prioritized the variables. Here is what each model, Random Forest and XGB respectively, ranked the features.
 
-![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png)
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png?raw=true)
 
 Despite those differences, they produced very similar confusion matrices. Again Random Forest and XGB, respectively. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to wrongly predict that someone was lonely when they were not. 
 
-![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png)
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png?raw=true)
 
 I also found very similar, albeit, not great ROC curves
 
-![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png)
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png?raw=true)
 
 
