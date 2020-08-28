@@ -12,7 +12,7 @@ I wanted to see whether I could predict loneliness based on these factors.
 The data was fairly easy to work with as most values were on a scale of 1-5, with 5 representing 'highly agree' with survey question.
 For an explanation of the survey questions, you can refer to the [<span style="font-size:12pt;">description</span>](https://www.kaggle.com/miroslavsabo/young-people-survey?select=columns.csv) on Kaggle. The sections I chose were: HOBBIES & INTERESTS, PHOBIAS, and PERSONALITY TRAITS, VIEWS ON LIFE & OPINIONS.
 
-I was only interested in those who reported severe feelings of loneliness, so I made the target class binary with 1 representing severe loneliness (those who answered a 4 or 5) and 0 representing all others (average to low levels of loneliness). This resulted in imbalanced classes (0 at 74% and 1 at 26%) and I chose precision as my metric. I wanted to see how often the models were able to predict severe loneliness.
+I was only interested in those who reported severe feelings of loneliness, so I made the target class binary with 1 representing severe loneliness (those who answered a 4 or 5) and 0 representing all others (average to low levels of loneliness). This resulted in imbalanced classes (0 at 74% and 1 at 26%) and I chose precision as my metric. I wanted to see how often the models were able to predict severe loneliness. With a baseline of only 26%, my models should be able to beat that!
 
 First, I made some simple models and found which features were most correlated with loneliness. I chose to use the top 20 features from a random forest model. Intuitively, I can see how many of these features would relate to loneliness in others as well as my own life.
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/feature_importances.png?raw=true)
@@ -31,7 +31,7 @@ I also found very similar, albeit, not great ROC curves
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png?raw=true)
 
-Lastly I checked the precision metric. Both models were able to predict loneliness much higher than baseline levels with Gradient Boosting performing slightly higher than Random Forest.
+Lastly I checked the precision metric on my validation set. Both models were able to predict loneliness much higher than baseline levels with Gradient Boosting performing slightly higher than Random Forest.
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/metrics_validation.png?raw=true)
 
