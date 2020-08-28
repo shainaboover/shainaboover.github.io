@@ -14,16 +14,16 @@ For an explanation of the survey questions, you can refer to the [<span style="f
 
 I was only interested in those who reported severe feelings of loneliness, so I made the target class binary with 1 representing severe loneliness (those who answered a 4 or 5) and 0 representing all others (average to low levels of loneliness). This resulted in imbalanced classes (0 at 74% and 1 at 26%) and I chose precision as my metric. I wanted to see how often the models were able to predict severe loneliness.
 
-First, I maded a some simple models and found which features were most correlated with loneliness. I chose to use the top 20 features from a random forest model. Intuitively, I can see how many of these features would relate to loneliness in others as well as my own life.
+First, I made some simple models and found which features were most correlated with loneliness. I chose to use the top 20 features from a random forest model. Intuitively, I can see how many of these features would relate to loneliness in others as well as my own life.
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/feature_importances.png?raw=true)
 
 Next I fit a few models (including logistic regression, decision tree, random forest, xgb) and compared which ones were performing best. My Random Forest and Gradient Boosting models out performed the others but gave me very similar metrics. 
 
-I found that the two models had pretty big differences in how they prioritized the variables. Here is what each model, Random Forest and XGB respectively, ranked the features.
+I found that the two models had pretty big differences in how they prioritized the variables. Here is how each model, Random Forest and XGB respectively, ranked the features.
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_permutation_importances.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xbg_permutation_importances.png?raw=true)
 
-Despite those differences, they produced very similar confusion matrices. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to wrongly predict that someone was lonely when they were not. Again Random Forest and XGB, respectively. 
+Despite those differences, they produced very similar confusion matrices. Both were able to predict severe loneliness with a relatively high level of precision, still they tended to miss quite a few lonely people. Again Random Forest and XGB, respectively. 
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_confusion_matrix.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_confusion_matrix.png?raw=true)
 
@@ -31,16 +31,13 @@ I also found very similar, albeit, not great ROC curves
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png?raw=true)
 
-Lastly I checked the precision metric. Both models were able to predict loneliness much higher than baseline levels
+Lastly I checked the precision metric. Both models were able to predict loneliness much higher than baseline levels.
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/random_forest_report.png?raw=true)
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_report.png?raw=true)
 
 
+While it is interesting to think about how our views of the world relate to our emotions around connection, it is still important to remember that loneliness is a highly subjective feeling that can change dramatically throughout life. If anything, these models reveal just a tiny bit about our perceptions of the world and our place in it. 
 
-
-
-
-
-In the end, loneliness is a highly subjective feeling that can change dramatically throughout life.  
+Do your own feelings of loneliness relate to any of the features listed? When we shine the light of consciousness onto our feelings and thought patterns, we can uncover deeper connections with ourselves and each other.
