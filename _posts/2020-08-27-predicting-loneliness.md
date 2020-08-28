@@ -31,9 +31,11 @@ I also found very similar, albeit, not great ROC curves
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/rf_roc_curve.png?raw=true)![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_roc_curve.png?raw=true)
 
-Lastly I checked the precision metric. Both models were able to predict loneliness much higher than baseline levels.
+Lastly I checked the precision metric. Both models were able to predict loneliness much higher than baseline levels with Gradient Boosting performing slightly higher than Random Forest.
 
-![alt text](https://github.com/shainaboover/Loneliness/blob/master/random_forest_report.png?raw=true)
+![alt text](https://github.com/shainaboover/Loneliness/blob/master/metrics_validation.png?raw=true)
+
+This held true when run with the test set, though the accuracy scores dropped quite a bit.
 
 ![alt text](https://github.com/shainaboover/Loneliness/blob/master/xgb_report.png?raw=true)
 
